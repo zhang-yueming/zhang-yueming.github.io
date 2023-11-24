@@ -1,0 +1,62 @@
+[module]
+[[module.imports]]
+  path = 'github.com/LordMathis/hugo-theme-nightfall'
+
+
+[menu]
+  [[menu.header]]
+    name = "resume"
+    weight = 0
+    url = "https://drive.google.com/file/d/1qBBEcv9QQOVQrPec4Pvd4mh3jlMj64R4/view"
+
+
+
+[params]
+#	user = "home"
+#	hostname = "github.com/zhang-yueming/zhang-yueming.github.io"
+	hostname = "home"
+	
+	footerHtml = '<span style="font-size: small;">Copyright © 2023 Yueming Zhang. All rights reserved.</span>'
+
+
+  [params.author]
+    name = "Yueming Zhang"
+    email = "zhangyueming0516@gmail.com"
+	
+	
+[[params.social]]
+	key = 0
+	name = "github"
+	url = "https://github.com/zhang-yueming"
+	icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+	target="_blank"
+
+
+#[[params.social]]
+#key = 1
+#name = "twitter"
+#url = "https://www.example.com"
+
+[[params.social]]
+	key = 1
+	name = "pinterest"
+	url = "https://www.pinterest.com/zhangyueming5623/"
+	icon = "fa-brands fa-pinterest" 
+
+[[params.social]]
+	key = 2
+	name = "linkedin"
+	url = "https://www.linkedin.com/in/zhangyueming/"
+	#rel = "https://www.linkedin.com/in/zhangyueming/"  # You can also add rel to social link
+	icon = "fa-brands fa-linkedin" 
+	
+
+[[params.social]]
+	key = 3
+	name = "email"
+	url = "mailto:zhangyueming0516@gmail.com"
+	icon = "fa-solid fa-envelope" 
+
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/c9e760523f.js" crossorigin="anonymous"></script>
+<script>
+//下面这段代码使得在个人主页点击其他外链的时候带一个新的tab页而不是覆盖原始页面
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('a[href^="http"]');
+    links.forEach(function(link) {
+        link.setAttribute('target', '_blank');
+    });
+});
+</script>
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+
+<body>
+	<!-- 这是一个注释，它不会在网页上显示 
+	<i class="fa-brands fa-github"></i>
+	<i class="fa-brands fa-pinterest"></i>
+	<i class="fa-brands fa-linkedin"></i>
+	<i class="fa-solid fa-envelope"></i>
+	-->
+</body>
+
+
+</html>
+
+
+
+
+
